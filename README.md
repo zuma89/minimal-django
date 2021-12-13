@@ -8,4 +8,4 @@ Easiest way to install django framework is using pip. After installing python an
 
 To serve the web application and preview in browser, run the following command:
 
-```$python hello.py runserver```
+```$python3 hello.py runserver```
