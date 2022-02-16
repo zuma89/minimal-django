@@ -1,5 +1,7 @@
 import sys
 from django.conf import settings
+from django.urls import path
+from django.http import HttpResponse
 
 settings.configure(
     DEBUG=True,
@@ -11,9 +13,6 @@ settings.configure(
         'django.middleware.clickjacking.XFrameOptionsMiddleware',
     ),
 )
-
-from django.urls import path
-from django.http import HttpResponse
 
 def index(request):
     return HttpResponse('Hello World')
