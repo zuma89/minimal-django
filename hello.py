@@ -1,4 +1,5 @@
 #!/usr/bin/env python3
+"""System module."""
 import sys
 from django.conf import settings
 from django.urls import path
