@@ -16,7 +16,7 @@ settings.configure(
     ),
 )
 
-def index(request):
+def index(request, name=None):
     """Return a http response"""
     return HttpResponse('Hello World')
 
