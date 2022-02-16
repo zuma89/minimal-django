@@ -1,4 +1,3 @@
-#!/usr/bin/env python3
 """System module."""
 import sys
 from django.conf import settings
@@ -16,7 +15,7 @@ settings.configure(
     ),
 )
 
-def index(request, name=None):
+def index(request):
     """Return a http response"""
     return HttpResponse('Hello World')
 
