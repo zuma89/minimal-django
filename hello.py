@@ -15,6 +15,7 @@ settings.configure(
 )
 
 def index(request):
+    """Return a http response"""
     return HttpResponse('Hello World')
 
 urlpatterns = (
